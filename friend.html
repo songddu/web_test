@@ -6,6 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="default.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+       
+        label{
+            display: flex;
+            align-items: center;
+            position: relative;
+            top : 30px;
+            left: 30px;
+            transition: .5s;
+        }
+        .material-icons{
+            font-size:3rem;
+            margin-right: 10px;
+        }
+        .bookmark-btt{
+            border:none;
+            outline:none;
+           
+            font-size:3rem;
+
+        }
+        section{
+            background-color: rgb(241, 241, 194);
+           
+            width: 250px;
+            padding-top: 300px;
+            padding-left: 30px;
+            position: absolute;
+            top : 0;
+            left: -250px;
+            bottom: 0;
+            transition: 1s ease;
+            display: inline-block;
+        }
+        .bookmark-lists{
+            padding-left:45px;
+        }
+        .bookmark:nth-child(1){
+            margin-top:50px;
+        }
+        .bookmark a{
+           
+            text-decoration: none;
+        }
+        .friend{
+            text-align:center;
+            margin-left: 300px;
+            font-size:20px;
+            
+        }
+      
+    </style>
 </head>
 <body>
 
@@ -42,20 +101,35 @@
     </nav>  
     </div> 
     <hr/>
-</header>
-<div>
-    <h1>내 친구들을 소개할게!</h1>
-    <a href="https://store.kakaofriends.com/index">
-        <img src="friend.jpg" alt="위의 이미지를 누르면 연결됩니다.">
-    </a>
-</div>
-<aside>
-    <div class="friend">
-        <a href="https://www.instagram.com/ryan.seoul.icon/">
-            <img src=""
-        </a>
+    </header>
 
-    </div>
-</aside>
+   
+    <main>
+        <label>
+            <span class="material-icons">*</span>
+            <input type= "button" value="Friends" class="bookmark-btt">
+        </label>
+        <section>
+            <h1>카카오프렌즈<br></h1>
+            <ul class="bookmark-lists">
+                <li class="bookmark"><a href="https://www.instagram.com/ryan.seoul.icon/"> 라이언</a></li>
+                <li class="bookmark"><a href="https://namu.wiki/w/%EC%96%B4%ED%94%BC%EC%B9%98"> 어피치</a></li>
+                <li class="bookmark"><a href="https://namu.wiki/w/%ED%8A%9C%EB%B8%8C(%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88)">튜브</a></li>
+                <li class="bookmark"><a href="https://namu.wiki/w/%EB%AC%B4%EC%A7%80(%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88)">무지</a></li>
+            </ul>
+        </section>
+    </main>
+
+        <div class="friend">
+            <img src="friend.jpg" alt="내 친구들을 소개할게">
+            <img src="friend2.jpg" alt="라이언과 춘식이"><br>
+            <a href="https://store.kakaofriends.com/index" style="background-color: rgb(245, 212, 217)">카카오프렌즈 스토어 바로가기</a>
+
+        </div>
+    <script src="main.js"></script>
+
+   
+
+
 </body>
 </html>
