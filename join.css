@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrap{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background:rgba(0,0,0,0.1);
+}
+h1{
+    color:skyblue;
+    font-size:2em;
+}
+.fieldset{
+    margin-top: 20px;
+    width:80%;
+    background-color:lightyellow;
+}
+.submit input{
+    width:30%;
+    height: 50px;
+    border:0;
+    outline:none;
+    border-radius: 40px;
+    background:linear-gradient(to left, lightgray), rgb(174, 148, 236);
+    color:white;
+    font-size:1.2em;
+    
+
+  
+}

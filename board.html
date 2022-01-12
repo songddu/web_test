@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="boardstyle.css">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header> 
+         
+        <div id="login">
+            <a href="login.html">Login</a> 
+            |
+            <a href="join.html">
+                Join
+            </a>
+            <select class=language>
+                <option>KR</option>
+                <option>EN</option>
+            </select>
+        </div>
+        <div class="clear"></div>
+       
+
+        <nav class="menu">
+            <a href="index.html">
+                <img class=logo src="choonsik.jpg" width="200" height="100" alt="main"></a>
+        
+            <ul class=menu>    
+                <li>
+                    <a href="aboutME.html">소개</a>
+                </li>
+                <li>
+                    <a href="friend.html">친구들</a>
+                </li>
+                <li>
+                    <a href="board.html">게시판</a>
+                </li>
+            </ul>
+        </nav>  
+        </div> 
+        <hr/>
+    </header>
+    <div class="board_list_wrap">
+        <div class="board_list">
+            <div class="board_list_head">
+                <div class="num">번호</div>
+                <div class="tit">제목</div>
+                <div class="writer">글쓴이</div>
+                <div class="date">작성일</div>
+                <div class="view">조회</div>
+            </div>
+            <div class="board_list_body">
+                <div class="item">
+                    <div class="num" >3</div>
+                    <div class="tit"><a href="#">공지사항</a></div>
+                    <div class="writer">관리자</div>
+                    <div class="date">2022-01-08</div>
+                    <div class="view">200</div>
+                 </div>
+                <div class="item">
+                    <div class="num" >2</div>
+                    <div class="tit"><a href="#">카카오프렌즈 소개</a></div>
+                    <div class="writer">관리자</div>
+                    <div class="date">2022-01-07</div>
+                    <div class="view">181</div>
+                 </div>
+                <div class="item">
+                    <div class="num" >1</div>
+                    <div class="tit"><a href="#">안녕하세요</a></div>
+                    <div class="writer">관리자</div>
+                    <div class="date">2022-01-06</div>
+                    <div class="view">111</div>
+                 </div>
+                 
+            </div>
+        </div>
+        <div class="paging">
+            <a href="#" class="first">처음</a>
+            <a href="#" class="prev">이전</a>
+            <a href="#" class-"num">1</a>
+            <a href="#" class="num">2</a>
+            <a href="#" class="num">3</a>
+            <a href="#" class="next">다음</a>
+            <a href="#" class="last">마지막</a>
+        </div>
+    </div>
+
+ 
+
+   
+</body>
+</html>

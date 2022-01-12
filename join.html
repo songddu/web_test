@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>join</title>
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="join.css">
+        
+        <script>
+            function idcheck(){
+                conlole.log("사용가능한 아이디");
+            }
+        </script>
+    </head>
+
+    <body>
+        <header> 
+         
+            <div id="login">
+                <a href="login.html">Login</a> 
+                |
+                <a href="join.html">
+                    Join
+                </a>
+                <select class=language>
+                    <option>KR</option>
+                    <option>EN</option>
+                </select>
+            </div>
+            <div class="clear"></div>
+           
+
+            <nav class="menu">
+                <a href="index.html">
+                    <img class=logo src="choonsik.jpg" width="200" height="100" alt="main"></a>
+            
+                <ul class=menu>    
+                    <li>
+                        <a href="aboutME.html">소개</a>
+                    </li>
+                    <li>
+                        <a href="friend.html">친구들</a>
+                    </li>
+                    <li>
+                        <a href="board.html">게시판</a>
+                    </li>
+                </ul>
+            </nav>  
+            </div> 
+            <hr/>
+
+        <div wrap>
+            <h1>회원가입</h1>
+            <form>
+                <fieldset>
+                    
+                    <div class="fieldset">
+
+                    <p>아이디 : 
+                        <input type="text" name="id"> 
+                        <button id="button" onclick="idcheck();" >중복확인</button>
+                    </p>
+
+                    <p>
+
+                   패스워드 : <input type="text" name="password"> </p>
+                    <p>이름 : <input type="text" name="name"> </p>
+                    <p>성별 : 
+                        <input type="radio" name="sex" value="male" ckecked>남자
+                        <input type="radio" name="sex" value="female" >여자
+                    </p>
+                    <p>생년월일:
+                        <input type="date" name="birth" min="1900-01-01" max="2100-01-01">
+                    </p>
+
+                    <p>직업 :
+                        <select name="job" size="4" multiple>
+                            <option value="1" selected>학생</option>
+                            <option value="2" selected>직장인</option>
+                            <option value="3" selected>주부</option>
+                            <option value="4" selected>기타</option>
+                        </select>
+                    </p>
+                    </div>
+
+                    <input type="submit" value="회원가입">
+                    <input type="reset" value="취소">
+
+                </fieldset>
+        </form>
+    </div>
+    </body>
+
+</html>
