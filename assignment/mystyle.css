@@ -1,9 +1,0 @@
-#main{color:black; background-color: white;}
-div>p{color:white; background-color: brown;}
-div div{ background-color: yellow;}
-
-ul>li.class{font-size:20px; font-weight:bold}
-ul>li.id{font-size:20px; font-weight:bold}
-ul>li.attribute{font-weight:bold; color:green}
-
-h2{color:blue; font-style:italic; }
